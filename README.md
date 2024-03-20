@@ -1,106 +1,116 @@
-<p align="right">
-    <a href="https://github.com/LiamBindle/MQTT-C/stargazers"><img src="https://img.shields.io/github/stars/LiamBindle/MQTT-C.svg?style=social&label=Star" style="margin-left:5em"></a>
-    <a href="https://github.com/LiamBindle/MQTT-C/network/members"><img src="https://img.shields.io/github/forks/LiamBindle/MQTT-C.svg?style=social&label=Fork"></a>
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p align="right" dir="auto">
+    <a href="https://github.com/LiamBindle/MQTT-C/stargazers"><img src="https://camo.githubusercontent.com/f6448794f3626b79207b9a346e17d5ece93202f11c8c3793c54d5cde0fc104a9/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4c69616d42696e646c652f4d5154542d432e7376673f7374796c653d736f6369616c266c6162656c3d53746172" data-canonical-src="https://img.shields.io/github/stars/LiamBindle/MQTT-C.svg?style=social&amp;label=Star" style="max-width: 100%;"></a>
+    <a href="https://github.com/LiamBindle/MQTT-C/network/members"><img src="https://camo.githubusercontent.com/bf2ac5b8beef5b25a431ff464460831dd294e1f2c5c45bb3bd3f08fe3b35b196/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f4c69616d42696e646c652f4d5154542d432e7376673f7374796c653d736f6369616c266c6162656c3d466f726b" data-canonical-src="https://img.shields.io/github/forks/LiamBindle/MQTT-C.svg?style=social&amp;label=Fork" style="max-width: 100%;"></a>
 </p>
-
-<p align="center">
-    <img width="70%" src="docs/mqtt-c-logo.png"><br>
-    <a href="https://liambindle.ca/MQTT-C"><img src="https://img.shields.io/badge/docs-passing-brightgreen.svg"></a>
-    <a href="https://github.com/LiamBindle/MQTT-C/issues"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>
-    <a href="https://GitHub.com/LiamBindle/MQTT-C/issues/"><img src="https://img.shields.io/github/issues/LiamBindle/MQTT-C.svg"></a>
-    <a href="https://github.com/LiamBindle/MQTT-C/issues"><img src="https://img.shields.io/github/issues-closed/LiamBindle/MQTT-C.svg"></a>
-    <a href="https://github.com/LiamBindle/MQTT-C/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
+<p align="center" dir="auto">
+    <a target="_blank" rel="noopener noreferrer" href="/LiamBindle/MQTT-C/blob/master/docs/mqtt-c-logo.png"><img width="70%" src="/LiamBindle/MQTT-C/raw/master/docs/mqtt-c-logo.png" style="max-width: 100%;"></a><br>
+    <a href="https://liambindle.ca/MQTT-C" rel="nofollow"><img src="https://camo.githubusercontent.com/107e1bce96f0948d06fee13baa6a2de2be3fcccace053459919553c0ec869c4f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f63732d70617373696e672d627269676874677265656e2e737667" data-canonical-src="https://img.shields.io/badge/docs-passing-brightgreen.svg" style="max-width: 100%;"></a>
+    <a href="https://github.com/LiamBindle/MQTT-C/issues"><img src="https://camo.githubusercontent.com/50a927de513460609cfad453b7260a5882ecaef04403bf77b6eaf8839adbd32a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d61696e7461696e65642533462d7965732d677265656e2e737667" data-canonical-src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" style="max-width: 100%;"></a>
+    <a href="https://GitHub.com/LiamBindle/MQTT-C/issues/"><img src="https://camo.githubusercontent.com/1c529f555edd291f966cc91c73b3d493d21571c4aa116a20de1720b3e1ac4d51/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f4c69616d42696e646c652f4d5154542d432e737667" data-canonical-src="https://img.shields.io/github/issues/LiamBindle/MQTT-C.svg" style="max-width: 100%;"></a>
+    <a href="https://github.com/LiamBindle/MQTT-C/issues"><img src="https://camo.githubusercontent.com/1d23c6804830853ed82a704fbb780ad6b735becbc7f459ff6a62cd73712f67aa/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d636c6f7365642f4c69616d42696e646c652f4d5154542d432e737667" data-canonical-src="https://img.shields.io/github/issues-closed/LiamBindle/MQTT-C.svg" style="max-width: 100%;"></a>
+    <a href="https://github.com/LiamBindle/MQTT-C/blob/master/LICENSE"><img src="https://camo.githubusercontent.com/6552afb9038154d801c50b6e55a76db78a6787a8d6e2b5252a44864503c52887/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d626c75652e737667" data-canonical-src="https://img.shields.io/badge/License-MIT-blue.svg" style="max-width: 100%;"></a>
 </p>
-
-MQTT-C is an [MQTT v3.1.1](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html) 
-client written in C. MQTT is a lightweight publisher-subscriber-based messaging protocol that is
-commonly used in IoT and networking applications where high-latency and low data-rate links 
-are expected. The purpose of MQTT-C is to provide a **portable** MQTT client, **written in C**, 
-for embedded systems and PC's alike. MQTT-C does this by providing a transparent Platform 
-Abstraction Layer (PAL) which makes porting to new platforms easy. MQTT-C is completely 
-thread-safe but can also run perfectly fine on single-threaded systems making MQTT-C 
-well-suited for embedded systems and microcontrollers. Finally, MQTT-C is small; there are only 
-two source files totalling less than 2000 lines.
-
-#### A note from the author
-It's been great to hear about all the places MQTT-C is being used! Please don't hesitate
-to get in touch with me or submit issues on GitHub!
-
-## Getting Started
-To use MQTT-C you first instantiate a `struct mqtt_client` and initialize it by calling
-@ref mqtt_init.
-```c
-    struct mqtt_client client; /* instantiate the client */
-    mqtt_init(&client, ...);   /* initialize the client */
-```
-Once your client is initialized you need to connect to an MQTT broker.
-```c
-    mqtt_connect(&client, ...); /* send a connection request to the broker. */
-```
-At this point the client is ready to use! For example, we can subscribe to a topic like so:
-```c
-    /* subscribe to "toaster/temperature" with a max QoS level of 0 */
-    mqtt_subscribe(&client, "toaster/temperature", 0);
-```
-And we can publish to a topic like so:
-```c
-    /* publish coffee temperature with a QoS level of 1 */
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MQTT-C 是用 C 语言编写的</font></font><a href="http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MQTT v3.1.1</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+客户端。MQTT 是一种基于发布者-订阅者的轻量级消息传递协议，通常用于需要高延迟和低数据速率链接的 IoT 和网络应用程序。</font><font style="vertical-align: inherit;">MQTT-C 的目的是</font><font style="vertical-align: inherit;">为嵌入式系统和 PC 等提供</font><strong><font style="vertical-align: inherit;">用 C 编写的</font></strong></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">便携式</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MQTT 客户端。</font><font style="vertical-align: inherit;">MQTT-C 通过提供透明的平台抽象层 (PAL) 来实现这一点，这使得移植到新平台变得容易。</font><font style="vertical-align: inherit;">MQTT-C 是完全线程安全的，但也可以在单线程系统上完美运行，这使得 MQTT-C 非常适合嵌入式系统和微控制器。</font><font style="vertical-align: inherit;">最后，MQTT-C体积小；</font><font style="vertical-align: inherit;">源文件只有两个，总共不到2000行。</font></font><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"></font></p>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作者的注释</font></font></h4><a id="user-content-a-note-from-the-author" class="anchor" aria-label="永久链接：作者的注释" href="#a-note-from-the-author"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很高兴听到所有使用 MQTT-C 的地方！</font><font style="vertical-align: inherit;">请随时与我联系或在 GitHub 上提交问题！</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></h2><a id="user-content-getting-started" class="anchor" aria-label="永久链接：开始使用" href="#getting-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要使用 MQTT-C，您首先实例化 a</font></font><code>struct mqtt_client</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并通过调用 @ref mqtt_init 对其进行初始化。</font></font></p>
+<div class="highlight highlight-source-c notranslate position-relative overflow-auto" dir="auto"><pre>    <span class="pl-k">struct</span> <span class="pl-smi">mqtt_client</span> <span class="pl-s1">client</span>; <span class="pl-c">/* instantiate the client */</span>
+    <span class="pl-en">mqtt_init</span>(<span class="pl-c1">&amp;</span><span class="pl-s1">client</span>, ...);   <span class="pl-c">/* initialize the client */</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="    struct mqtt_client client; /* instantiate the client */
+    mqtt_init(&amp;client, ...);   /* initialize the client */" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">客户端初始化后，您需要连接到 MQTT 代理。</font></font></p>
+<div class="highlight highlight-source-c notranslate position-relative overflow-auto" dir="auto"><pre>    <span class="pl-en">mqtt_connect</span>(<span class="pl-c1">&amp;</span><span class="pl-s1">client</span>, ...); <span class="pl-c">/* send a connection request to the broker. */</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="    mqtt_connect(&amp;client, ...); /* send a connection request to the broker. */" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此时客户端就可以使用了！</font><font style="vertical-align: inherit;">例如，我们可以订阅这样的主题：</font></font></p>
+<div class="highlight highlight-source-c notranslate position-relative overflow-auto" dir="auto"><pre>    <span class="pl-c">/* subscribe to "toaster/temperature" with a max QoS level of 0 */</span>
+    <span class="pl-en">mqtt_subscribe</span>(<span class="pl-c1">&amp;</span><span class="pl-s1">client</span>, <span class="pl-s">"toaster/temperature"</span>, <span class="pl-c1">0</span>);</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="    /* subscribe to &quot;toaster/temperature&quot; with a max QoS level of 0 */
+    mqtt_subscribe(&amp;client, &quot;toaster/temperature&quot;, 0);" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们可以发布到这样的主题：</font></font></p>
+<div class="highlight highlight-source-c notranslate position-relative overflow-auto" dir="auto"><pre>    <span class="pl-c">/* publish coffee temperature with a QoS level of 1 */</span>
+    <span class="pl-smi">int</span> <span class="pl-s1">temperature</span> <span class="pl-c1">=</span> <span class="pl-c1">67</span>;
+    <span class="pl-en">mqtt_publish</span>(<span class="pl-c1">&amp;</span><span class="pl-s1">client</span>, <span class="pl-s">"coffee/temperature"</span>, <span class="pl-c1">&amp;</span><span class="pl-s1">temperature</span>, <span class="pl-k">sizeof</span>(<span class="pl-smi">int</span>), <span class="pl-c1">MQTT_PUBLISH_QOS_1</span>);</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="    /* publish coffee temperature with a QoS level of 1 */
     int temperature = 67;
-    mqtt_publish(&client, "coffee/temperature", &temperature, sizeof(int), MQTT_PUBLISH_QOS_1);
-```
-Those are the basics! From here the [examples](https://github.com/LiamBindle/MQTT-C/tree/master/examples) and [API documentation](https://liambindle.ca/MQTT-C/group__api.html) are good places to get started.
-
-## Building
-There are **only two source files** that need to be built, `mqtt.c` and `mqtt_pal.c`.
-These files are ANSI C (C89) compatible, and should compile with any C compiler.
-
-Then, simply <code>\#include <mqtt.h></code>.
-
-Alternatively, you can build MQTT-C with CMake or the provided Makefile. These are provided for convenience.
-
-## Documentation
-Pre-built documentation can be found here: [https://liambindle.ca/MQTT-C](https://liambindle.ca/MQTT-C). Be sure to check out the [examples](https://github.com/LiamBindle/MQTT-C/tree/master/examples) too.
-
-The @ref api documentation contains all the documentation application programmers should need. 
-The @ref pal documentation contains everything you should need to port MQTT-C to a new platform,
-and the other modules contain documentation for MQTT-C developers.
-
-## Testing and Building the Tests
-The MQTT-C unit tests use the [cmocka unit testing framework](https://cmocka.org/). 
-Therefore, [cmocka](https://cmocka.org/) *must* be installed on your machine to build and run 
-the unit tests. For convenience, a simple `"makefile"` is included to build the unit tests and 
-examples on UNIX-like machines. The unit tests and examples can be built as follows:
-```bash
-    $ make all
-``` 
-The unit tests and examples will be built in the `"bin/"` directory. The unit tests can be run 
-like so:
-```bash
-    $ ./bin/tests [address [port]]
-```
-Note that the \c address and \c port arguments are both optional to specify the location of the
-MQTT broker that is to be used for the tests. If no \c address is given then the 
-[Mosquitto MQTT Test Server](https://test.mosquitto.org/) will be used. If no \c port is given, 
-port 1883 will be used.
-
-## Portability
-MQTT-C provides a transparent platform abstraction layer (PAL) in `mqtt_pal.h` and `mqtt_pal.c`.
-These files declare and implement the types and calls that MQTT-C requires. Refer to 
-@ref pal for the complete documentation of the PAL.
-
-## Contributing
-Please feel free to submit issues and pull-requests [here](https://github.com/LiamBindle/MQTT-C).
-When submitting a pull-request please ensure you have *fully documented* your changes and 
-added the appropriate unit tests.
-
-
-## License
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the 
-`"LICENSE"` file for more details.
-
-## Authors
-MQTT-C was initially developed as a CMPT 434 (Winter Term, 2018) final project at the University of 
-Saskatchewan by:
-- **Liam Bindle**
-- **Demilade Adeoye**
-
+    mqtt_publish(&amp;client, &quot;coffee/temperature&quot;, &amp;temperature, sizeof(int), MQTT_PUBLISH_QOS_1);" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些是基础知识！</font><font style="vertical-align: inherit;">从这里开始，</font></font><a href="https://github.com/LiamBindle/MQTT-C/tree/master/examples"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://liambindle.ca/MQTT-C/group__api.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API 文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是很好的起点。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建筑</font></font></h2><a id="user-content-building" class="anchor" aria-label="永久链接： 建筑" href="#building"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需要</font><font style="vertical-align: inherit;">构建</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">两个源文件</font></font></strong><font style="vertical-align: inherit;"></font><code>mqtt.c</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，以及</font></font><code>mqtt_pal.c</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">. </font><font style="vertical-align: inherit;">这些文件与 ANSI C (C89) 兼容，并且应该使用任何 C 编译器进行编译。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">那么，简单地说</font></font><code>#include &lt;mqtt.h&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者，您可以使用 CMake 或提供的 Makefile 构建 MQTT-C。</font><font style="vertical-align: inherit;">提供这些是为了方便。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h2><a id="user-content-documentation" class="anchor" aria-label="永久链接：文档" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以在此处找到预构建的文档： https: </font></font><a href="https://liambindle.ca/MQTT-C" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//liambindle.ca/MQTT-C</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">请务必也查看</font></font><a href="https://github.com/LiamBindle/MQTT-C/tree/master/examples"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@ref api 文档包含应用程序程序员应该需要的所有文档。</font><font style="vertical-align: inherit;">@ref pal 文档包含将 MQTT-C 移植到新平台所需的所有内容，其他模块包含面向 MQTT-C 开发人员的文档。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试和构建测试</font></font></h2><a id="user-content-testing-and-building-the-tests" class="anchor" aria-label="永久链接：测试和构建测试" href="#testing-and-building-the-tests"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MQTT-C 单元测试使用</font></font><a href="https://cmocka.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cmocka 单元测试框架</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">因此，</font><em><font style="vertical-align: inherit;">必须在您的计算机上安装</font></em></font><a href="https://cmocka.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">cmocka</font></font></a> <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">才能构建和运行单元测试。</font><font style="vertical-align: inherit;">为了方便起见，包含了在类 UNIX 机器上构建单元测试和示例的</font><font style="vertical-align: inherit;">简单方法。</font><font style="vertical-align: inherit;">单元测试和示例可以按如下方式构建：</font></font><em><font style="vertical-align: inherit;"></font></em><font style="vertical-align: inherit;"></font><code>"makefile"</code><font style="vertical-align: inherit;"></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>    $ make all</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="    $ make all" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单元测试和示例将构建在该</font></font><code>"bin/"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录中。</font><font style="vertical-align: inherit;">单元测试可以像这样运行：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>    $ ./bin/tests [address [port]]</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="    $ ./bin/tests [address [port]]" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请注意，\c 地址和 \c 端口参数都是可选的，用于指定用于测试的 MQTT 代理的位置。</font><font style="vertical-align: inherit;">如果没有给出 \c 地址，
+</font><font style="vertical-align: inherit;">则将使用</font></font><a href="https://test.mosquitto.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mosquitto MQTT 测试服务器。</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果没有给出 \c 端口，则将使用端口 1883。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可移植性</font></font></h2><a id="user-content-portability" class="anchor" aria-label="永久链接：可移植性" href="#portability"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><code>mqtt_pal.h</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MQTT-C 在和</font><font style="vertical-align: inherit;">中提供透明的平台抽象层 (PAL) </font></font><code>mqtt_pal.c</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">这些文件声明并实现 MQTT-C 所需的类型和调用。</font><font style="vertical-align: inherit;">请参阅 @ref pal 了解 PAL 的完整文档。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2><a id="user-content-contributing" class="anchor" aria-label="永久链接：贡献" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请随时</font></font><a href="https://github.com/LiamBindle/MQTT-C"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提交问题和拉取请求。</font><font style="vertical-align: inherit;">提交拉取请求时，请确保您已</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完整记录</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您的更改并添加了适当的单元测试。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://opensource.org/licenses/MIT" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目根据MIT 许可证</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获得许可</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">请参阅该
+</font></font><code>"LICENSE"</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件了解更多详细信息。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作者</font></font></h2><a id="user-content-authors" class="anchor" aria-label="永久链接：作者" href="#authors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MQTT-C 最初是萨斯喀彻温大学 CMPT 434（2018 年冬季学期）最终项目的开发者：</font></font></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">利亚姆·宾德尔</font></font></strong></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">德米拉德·阿德耶</font></font></strong></li>
+</ul>
+</article></div>
